@@ -144,16 +144,16 @@ We live in the year 2020. Live with it. Would be great to know how to write my o
 
 ## Style of linebreaks
 * Somewhat the use of line breaks has been already defined by the rules stated above. This section is for all the missing cases.
-* A return **always** follows after a empty linebreak
-* When blocks of are directly nested, so a *if* would directly *while* for example I can only give advice.
+* A return **always** follows after an empty linebreak
+* When blocks are directly nested, so e.g. when an *if* would directly follow a *while* for example I can only give advice.
 * In my humble opinion two to three nested keywords should not be seperated by linebreaks. If blocks from keywords that follow directly onto each other, the occuring nesting still looks quite elegant if the blocks inside the keyword only have few lines of code in them. You should use linebreaks to seperate the keywords if you think it is hard for the eye to easily spot that a nesting of blocks is going on. So if you have many layers of nesting that each have a lot of code in them, you should definitely seperate them from the next block on the same level and/or from superior or inferior block with a linebreak before and a linebreak after the block.
 * Again inside blocks there are no empty line breaks after the opening curly brace or before the closing curly brace.
-* Your code should avoid excessive use of linebreaks. However, line breaks should be used to seperate sections of code from each other logically. Declaration is seperated from initialization is seperated from preliminary work is seperated from final work and so on. Also as stated above: If linebreaks help you break up a lot of code to make it easier for the eye to grasp what's happening then you are encouraged to use same.
+* Your code should avoid excessive use of linebreaks. However, line breaks should be used to seperate sections of code from each other logically. Declaration is seperated from initialization is seperated from preliminary work is seperated from final work and so on. Also as stated above: If linebreaks help you break up a lot of code to make it easier for the eye to grasp what's happening then you are encouraged to use the same.
 
 ## Style of operators
-* Operator are **always** seperated from the rest of the code like this: \<space\>\<operator\>\<space\>
-* Incrementor and decrementor, ++ and --, are one exception 
-* Derefence and reference operator, * and &, the other. I hope I have accounted for all exceptions.
+* Operators are **always** seperated from the rest of the code like this: \<space\>\<operator\>\<space\>
+* Incrementor and decrementor, ++ and --, are one exception and are not seperated by a space from the counter cariable
+* Dereference and reference operator, * and &, are another exception.
 
 * #### Examples:
     1) ```

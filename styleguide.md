@@ -95,7 +95,7 @@ We live in the year 2020. Live with it. Would be great to know how to write my o
 * An exception are the vulkan identifiers which are upper camel case. Doh!
 * **variable and function names are completely lower case**
 * For **structs and enums each syllable starts with an uppercase letter are continued lower case**
-* Acronyms from the real world that are usually all uppercase stay all uppercase enums and structs. In variables and function they are written all lowercase.
+* Acronyms from the real world that are usually all uppercase stay all uppercase. In variables and functions they are written all lowercase.
 * **Hungarian notation using for arr, str, strct, ptr is allowed**, but should be avoided if extremely obvious
 * **Hungarian notation is not allowed for primitive types**: For number types use something like num, cntr or such.
 
